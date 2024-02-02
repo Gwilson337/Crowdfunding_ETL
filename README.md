@@ -21,9 +21,9 @@ The 2nd part of the project was to create a campaign data frame.
 
 We renamed columns, changed d.types and datetime formats of some columns.
 
-Then merge campaign dataframe and sub category dataframe together.
+Then merged the campaign, category  and sub category dataframes together.
 
-Then merge category and sub category dataframes together.
+After merging the dataframes, we cleaned it up more by removing unwanted columns and their data.
 
 In the third part of the project we extracted data from contacts.xlsx
 
@@ -40,3 +40,17 @@ We changed the contact_id into an int64 datatype.
 Extracted and changed the name of certain columns in the dataframe.
 
 And Exported the dataframe into a csv file.
+
+In the last part of our project, which is the loading part of ETL, we created a database using PgAdmin and QuickDBD.
+
+QuickDBD was used to visualize the tables and their relationships, while PgAdmin was used to create the database.
+
+Using QuickDBD, we created tables (catogory, subcategory, contacts and campaign) along with their data types, constraints and relationships to each other.
+
+Switching over to PgAdmin, we created the Crowdfunding database and then imported the QuickDBD file of our tables.
+
+We then imported each csv file into the correct corresponding tables.
+
+After importing the table data, we ran a query of each table to see if the data was being displayed correctly.
+
+A sql file was was then created to show the table creations and queries done in PgAdmin.
