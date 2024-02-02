@@ -47,9 +47,9 @@ In the last part of our project, we created a database using PgAdmin and QuickDB
 
 QuickDBD was used to visualize the tables and their relationships, while PgAdmin was used to create the database.
 
-Using QuickDBD, we created tables (category, subcategory, contacts and campaign) along with their data types, constraints and relationships to each other. (refer to QuickDBD png file)
+Using QuickDBD, we created tables (category, subcategory, contacts and campaign) along with their data types, constraints and relationships to each other. (refer to QuickDBD-export.png)
 
-Switching over to PgAdmin, we created the Crowdfunding database and then imported the QuickDBD file of our tables to create the tables.
+Switching over to PgAdmin, we created the Crowdfunding database and then imported the QuickDBD file(QuickDBD-export.sql) to create the tables.
 
 We then imported each csv file into the correct corresponding tables.
 
