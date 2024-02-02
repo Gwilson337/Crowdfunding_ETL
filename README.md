@@ -5,6 +5,7 @@ In this project we are attempting to build an ETL pipeline using Python, Pandas,
 
 The starting resources are excel files contacts.xlsx and crowdfunding.xlsx.
 
+
 We started by importing all dependencies into our jupyter notebook, which are Pandas and Numpy.
 
 In ETL the extract stage comes first. 
@@ -19,6 +20,7 @@ Category and subcategory ids were then made to label each one.
 
 Next was to Export our category and subcategory as CSV files.
 
+
 The 2nd part of the project was to create a campaign data frame.
 
 We renamed columns, changed d.types(data types) and datetime formats of some columns.
@@ -26,6 +28,7 @@ We renamed columns, changed d.types(data types) and datetime formats of some col
 Then merged the campaign, category  and subcategory dataframes together.
 
 After merging the dataframes, we cleaned it up more by removing unwanted columns and exported the cleaned dataframe.
+
 
 In the third part of the project we extracted data from contacts.xlsx.
 
@@ -42,6 +45,7 @@ We changed the contact_id into an int64 datatype.
 Extracted and changed the name of certain columns in the dataframe.
 
 And Exported the dataframe into a csv file.
+
 
 In the last part of our project, we created a database using PgAdmin and QuickDBD.
 
