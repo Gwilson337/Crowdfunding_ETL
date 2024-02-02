@@ -53,4 +53,4 @@ We then imported each csv file into the correct corresponding tables.
 
 After importing the table data, we ran a query of each table to see if the data was being displayed correctly.
 
-A sql file was was then created to show the table creations and queries done in PgAdmin.
+An sql file was was then created to show the table creations and queries done in PgAdmin.
