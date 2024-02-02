@@ -55,4 +55,4 @@ We then imported each csv file into the correct corresponding tables.
 
 After importing the table data, we ran a query of each table to see if the data was being displayed correctly.
 
-An sql file was then created to show the table creations and queries done in PgAdmin. (crowdfunding_db_schemas)
+An sql file was then created to show the table creations and queries done in PgAdmin. (refer to crowdfunding_db_schemas)
