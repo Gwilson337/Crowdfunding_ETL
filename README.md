@@ -24,3 +24,19 @@ We renamed columns, changed d.types and datetime formats of some columns.
 Then merge campaign dataframe and sub category dataframe together.
 
 Then merge category and sub category dataframes together.
+
+In the third part of the project we extracted data from contacts.xlsx
+
+Created a contacts dataframe.
+
+Renamed and re-ordered the columns.
+
+Exported the dataframe to a csv file.
+
+We then did the same thing using Regex instead of Pandas to create a contacts dataframe.
+
+We changed the contact_id into an int64 datatype.
+
+Extracted and changed the name of certain columns in the dataframe.
+
+And Exported the dataframe into a csv file.
