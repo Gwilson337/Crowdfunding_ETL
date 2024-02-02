@@ -21,7 +21,7 @@ Next was to Export our category and subcategory as CSV files.
 
 The 2nd part of the project was to create a campaign data frame.
 
-We renamed columns, changed d.types(data types) and datetime formats of some columns.
+We renamed columns, changed dtypes(data types) and datetime formats of some columns.
 
 Then merged the campaign, category  and subcategory dataframes together.
 
