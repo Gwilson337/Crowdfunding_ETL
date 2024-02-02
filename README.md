@@ -4,7 +4,7 @@ We are using ETL format. ETL stands for Extract, Transform, and Load. This is be
 In this project we are attempting to build an ETL pipeline using Python, Pandas, and either using Python dictionary methods or regular expressions to extract and transform the data.
 
 The starting resources are excel files contacts.xlsx and crowdfunding.xlsx.
------------
+
 We started by importing all dependencies into our jupyter notebook, which are Pandas and Numpy.
 
 In ETL the extract stage comes first. 
@@ -18,7 +18,7 @@ Then listed the unique categories and subcategories seperately.
 Category and subcategory ids were then made to label each one.
 
 Next was to Export our category and subcategory as CSV files.
------------
+
 The 2nd part of the project was to create a campaign data frame.
 
 We renamed columns, changed d.types(data types) and datetime formats of some columns.
@@ -26,7 +26,7 @@ We renamed columns, changed d.types(data types) and datetime formats of some col
 Then merged the campaign, category  and subcategory dataframes together.
 
 After merging the dataframes, we cleaned it up more by removing unwanted columns and exported the cleaned dataframe.
------------
+
 In the third part of the project we extracted data from contacts.xlsx.
 
 Created a contacts dataframe.
@@ -42,7 +42,7 @@ We changed the contact_id into an int64 datatype.
 Extracted and changed the name of certain columns in the dataframe.
 
 And Exported the dataframe into a csv file.
------------
+
 In the last part of our project, we created a database using PgAdmin and QuickDBD.
 
 QuickDBD was used to visualize the tables and their relationships, while PgAdmin was used to create the database.
