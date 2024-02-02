@@ -3,23 +3,23 @@
 
 
 CREATE TABLE "category" (
-    "category_id" varchar   NOT NULL,
-    "category" varchar   NOT NULL,
+    "category_id" varchar   NOT NULL UNIQUE,
+    "category" varchar   NOT NULL UNIQUE,
     CONSTRAINT "pk_category" PRIMARY KEY (
         "category_id"
      )
 );
 
 CREATE TABLE "subcategory" (
-    "subcategory_id" varchar   NOT NULL,
-    "subcategory" varchar   NOT NULL,
+    "subcategory_id" varchar   NOT NULL UNIQUE,
+    "subcategory" varchar   NOT NULL UNIQUE,
     CONSTRAINT "pk_subcategory" PRIMARY KEY (
         "subcategory_id"
      )
 );
 
 CREATE TABLE "contacts" (
-    "contact_id" int   NOT NULL,
+    "contact_id" int   NOT NULL UNIQUE,
     "first_name" varchar   NOT NULL,
     "last_name" varchar   NOT NULL,
     "email" varchar   NOT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE "contacts" (
 );
 
 CREATE TABLE "campaign" (
-    "cf_id" int   NOT NULL,
+    "cf_id" int   NOT NULL UNIQUE,
     "contact_id" int   NOT NULL,
     "company_name" varchar   NOT NULL,
     "description" varchar   NOT NULL,
